@@ -2,16 +2,36 @@
 
 Tento projekt je součástí kurzu **ENGETO Datová Akademie** a je zaměřen na procvičení Power BI vizualizací vlastního datasetu.
 
-## Kritéria projektu
+## Cíl projektu
 
-- Rozsah 2-5 stránek
-- Použití minimálně 5 různých typů vizuálů
-- Filtrování (primárně) pomocí průřezů/slicerů
-- Využití interaktivních prvků jako jsou záložky, navigace po stranách, odkazy na webové stránky, ...
-- Propojení několika (2+) datových tabulek, buď přes vazby v rámci Power BI nebo přes propojení v Power Query
-- Použití vytvořené hierarchie o alespoň dvou úrovních (nepovinné)
-- Vytvoření alespoň 1 measure (metrika/míra) a 1 kalkulovaného sloupce/tabulky
-- Grafická úprava použitých vizuálů, zvolení správných typů vizuálů a vizuálně přívětivý výsledný report
+Cílem projektu je analyzovat **fakturaci Městské části Praha 12** v letech **2020–2025**. 
+Dashboard slouží jako přehledný nástroj pro:
+- sledování vývoje fakturace,
+- porovnání objemu výdajů podle jednotlivých agend (tzv. knih KDF),
+- vyhodnocení spolupráce s dodavateli,
+- zobrazení detailních informací o jednotlivých fakturách. 
+
+> ℹ️ **Poznámka:** Data za rok 2025 jsou nekompletní a zahrnují pouze období **do května 2025**.
+
+---
+
+## Použitá data
+
+Zdrojová data pochází z veřejně dostupného datasetu **faktur Městské části Praha 12**, který obsahuje základní informace o jednotlivých fakturách: 
+https://opendata.praha.eu/organizations/praha-12
+
+---
+
+## Postup zpracování
+
+**Import dat** - 5 CSV souborů (2020–2025) pomocí kombinace souborů z jedné složky 
+**Transformace dat v Power Query** - základní úprava datových typů (např. datum úhrady jako "datum", fakturované a uhrazené částky jako "desetinné číslo", atd.), přejmenování a čištění sloupců, … 
+**DAX míry a výpočty** - např. *Fakturováno celkem (CZK)*, *Uhrazeno celkem (CZK)*, *Počet faktur* 
+**Návrh vizuálů a rozložení dashboardu** - KPI karty, tabulky, matice, sloupcové a prstencové grafy 
+**Tvorba interaktivity** - slicery, navigační tlačítka, popisky, vložení URL pod logo Praha 12 
+**Grafická úprava** - písmo *Segoe UI* a jeho kombinace, barvy dle grafického manuálu MČ Praha 12 
+
+---
 
 ## Autor
 
