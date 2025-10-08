@@ -24,12 +24,12 @@ https://opendata.praha.eu/organizations/praha-12
 
 ## Postup zpracování
 
-**Import dat** - 5 CSV souborů (2020–2025) pomocí kombinace souborů z jedné složky 
-**Transformace dat v Power Query** - základní úprava datových typů (např. datum úhrady jako "datum", fakturované a uhrazené částky jako "desetinné číslo", atd.), přejmenování a čištění sloupců, … 
-**DAX míry a výpočty** - např. *Fakturováno celkem (CZK)*, *Uhrazeno celkem (CZK)*, *Počet faktur* 
-**Návrh vizuálů a rozložení dashboardu** - KPI karty, tabulky, matice, sloupcové a prstencové grafy 
-**Tvorba interaktivity** - slicery, navigační tlačítka, popisky, vložení URL pod logo Praha 12 
-**Grafická úprava** - písmo *Segoe UI* a jeho kombinace, barvy dle grafického manuálu MČ Praha 12 
+- **Import dat** - 5 CSV souborů (2020–2025) pomocí kombinace souborů z jedné složky 
+- **Transformace dat v Power Query** - základní úprava datových typů (např. datum úhrady jako "datum", fakturované a uhrazené částky jako "desetinné číslo", atd.), přejmenování a čištění sloupců, … 
+- **DAX míry a výpočty** - např. *Fakturováno celkem (CZK)*, *Uhrazeno celkem (CZK)*, *Počet faktur* 
+- **Návrh vizuálů a rozložení dashboardu** - KPI karty, tabulky, matice, sloupcové a prstencové grafy 
+- **Tvorba interaktivity** - slicery, navigační tlačítka, popisky, vložení URL pod logo Praha 12 
+- **Grafická úprava** - písmo *Segoe UI* a jeho kombinace, barvy dle grafického manuálu MČ Praha 12 
 
 ---
 
